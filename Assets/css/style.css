@@ -527,15 +527,19 @@ nav ul li:hover a {
   left: -26px;
 }
 .p2 {
-  top: 159px;
+  top: 129px;
   left: -26px;
 }
 .p3 {
-  bottom: 226px;
+  bottom: 290px;
   left: -26px;
 }
 .p4 {
-  bottom: 110px;
+  bottom: 220px;
+  left: -26px;
+}
+.p5 {
+  bottom: 100px;
   left: -26px;
 }
 .line {
