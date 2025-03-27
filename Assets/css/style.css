@@ -353,6 +353,7 @@ nav ul li:hover a {
   place-items: center;
 }
 .img-pro2 img {
+  margin-left: 250px;
   width: 208px;
 }
 /* ================================project==================== */
@@ -384,6 +385,9 @@ nav ul li:hover a {
 .project-con:hover {
   background-color: var(--voilet-color);
   transition: 0.3s ease-in;
+}
+.project-con:hover .pro-nav-btn i {
+  transform: rotate(-45deg);
 }
 .tool p {
   font-family: var(--inter-font);
@@ -790,6 +794,9 @@ footer {
   display: none;
 }
 @media (max-width: 575px) {
+  .img-pro2 img {
+    margin-left: 0;
+  }
   .container {
     width: 100%;
     padding: 20px;
@@ -980,6 +987,9 @@ footer {
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
+  .img-pro2 img {
+    margin-left: 0;
+  }
   .container {
     width: 100%;
     padding: 20px;
@@ -1168,6 +1178,9 @@ footer {
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+  .img-pro2 img {
+    margin-left: 0;
+  }
   .container {
     width: 100%;
     padding: 50px;
@@ -1212,6 +1225,9 @@ footer {
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+  .img-pro2 img {
+    margin-left: 100px;
+  }
   .container {
     width: 100%;
     padding: 50px;
