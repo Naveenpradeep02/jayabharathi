@@ -19,12 +19,14 @@ const projectdet = [
     tools: "Figma, Prottapp",
     timeline: "Jun- Jul 1st 2023",
     img: "Assets/img/Frame 50.png",
+    link: "https://www.behance.net/gallery/174136665/Jewelry-Responsive-Case-Study-UIUX ",
   },
   {
     projecttitle: "Crew Skl. - Dashboard for online learning platform",
     tools: "Figma, Prottapp, Canva",
     timeline: "Aug- Sep 2nd 2023",
     img: "Assets/img/Frame 40014.png",
+    link: "https://www.behance.net/gallery/178566505/Crew-Skl-Student-Dashboard-design ",
   },
   {
     projecttitle:
@@ -32,6 +34,7 @@ const projectdet = [
     tools: "Figma, PS, Canva",
     timeline: "Feb - Mar 11th 2024",
     img: "Assets/img/Frame 40014-1.png",
+    link: "https://www.behance.net/gallery/193577331/Premier-Petals-Plants-Selling-Website-UI ",
   },
   {
     projecttitle:
@@ -39,6 +42,7 @@ const projectdet = [
     tools: "Figma, PS, Canva",
     timeline: "Apr - May 8th 2024s",
     img: "Assets/img/Frame 40014-2.png",
+    link: "https://www.behance.net/gallery/198120203/C-C-Laundry-App-UI-Design ",
   },
   {
     projecttitle:
@@ -46,13 +50,16 @@ const projectdet = [
     tools: "Figma, PS, Canva",
     timeline: "Sep - Nov 30th 2023",
     img: "Assets/img/Frame 40014-3.png",
+    link: "https://www.behance.net/gallery/185542665/Parental-Control-App-UXUI-(MJ) ",
   },
 ];
 
 document.querySelector(".project").innerHTML = projectdet.map((e) => {
   return `<div class="project-con">
 <div class="project-img">
+<a href="${e.link}"  target="_blank">
   <img src="${e.img} "alt="" />
+  </a>
 </div>
 <div class="project-dec">
   <div class="project-text">
