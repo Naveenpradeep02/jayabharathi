@@ -56,6 +56,7 @@ const projectdet = [
 
 document.querySelector(".project").innerHTML = projectdet.map((e) => {
   return `<div class="project-con">
+  
 <div class="project-img">
 <a href="${e.link}"  target="_blank">
   <img src="${e.img} "alt="" />
